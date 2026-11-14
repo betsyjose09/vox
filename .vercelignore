@@ -1,0 +1,10 @@
+# Keep the serverless function bundle small
+frontend/node_modules
+frontend/dist
+.git
+backend/__pycache__
+**/__pycache__
+backend/kit_vox.db
+backend/.env
+backend/tests/__pycache__
+.pyvercel

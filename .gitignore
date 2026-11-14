@@ -1,0 +1,15 @@
+.env
+backend/.env
+*.db
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+node_modules/
+frontend/dist/
+_quarantine/
+_quarantine/
+audit_patch/
+files/
+files.zip
+SKILL.md

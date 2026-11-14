@@ -1,0 +1,100 @@
+{
+  "command_phrases": [
+    {
+      "phrase": "show my attendance",
+      "intent": "GET_ATTENDANCE",
+      "role": "student"
+    },
+    {
+      "phrase": "show my timetable",
+      "intent": "GET_TIMETABLE",
+      "role": "student"
+    },
+    {
+      "phrase": "show holidays",
+      "intent": "GET_HOLIDAYS",
+      "role": "all"
+    },
+    {
+      "phrase": "show exam dates",
+      "intent": "GET_EXAM_DATES",
+      "role": "all"
+    },
+    {
+      "phrase": "show my requests",
+      "intent": "GET_MY_REQUESTS",
+      "role": "student"
+    },
+    {
+      "phrase": "i need leave",
+      "intent": "SUBMIT_LEAVE",
+      "role": "student"
+    },
+    {
+      "phrase": "apply for on duty",
+      "intent": "SUBMIT_ON_DUTY",
+      "role": "student"
+    },
+    {
+      "phrase": "show pending requests",
+      "intent": "LIST_PENDING",
+      "role": "teacher"
+    },
+    {
+      "phrase": "approve request",
+      "intent": "APPROVE_REQUEST",
+      "role": "teacher"
+    },
+    {
+      "phrase": "reject request",
+      "intent": "REJECT_REQUEST",
+      "role": "teacher"
+    },
+    {
+      "phrase": "what courses do you offer",
+      "intent": "GET_COURSES",
+      "role": "public"
+    },
+    {
+      "phrase": "what are the admission requirements",
+      "intent": "GET_ELIGIBILITY",
+      "role": "public"
+    },
+    {
+      "phrase": "college information",
+      "intent": "GET_COLLEGE_INFO",
+      "role": "public"
+    },
+    {
+      "phrase": "yes",
+      "intent": "CONFIRM_ACTION",
+      "role": "all"
+    },
+    {
+      "phrase": "no",
+      "intent": "CANCEL_ACTION",
+      "role": "all"
+    },
+    {
+      "phrase": "cancel",
+      "intent": "CANCEL_ACTION",
+      "role": "all"
+    },
+    {
+      "phrase": "today",
+      "intent": "SLOT_DATE_TODAY",
+      "role": "student"
+    },
+    {
+      "phrase": "tomorrow",
+      "intent": "SLOT_DATE_TOMORROW",
+      "role": "student"
+    }
+  ],
+  "common_slots": {
+    "dates": ["today", "tomorrow"],
+    "leave_reasons": ["medical appointment", "family function", "personal reason", "sick leave", "fever"],
+    "od_events": ["hackathon", "symposium", "paper presentation", "sports meet"]
+  }
+}
+
